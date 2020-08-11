@@ -1,0 +1,142 @@
+.container{
+    max-width: 1440.5px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navright{
+        display: flex;
+        align-items: center;
+    }
+    .search{
+        margin-right: 90px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .sti1, .sti2, .sti3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+    .site_logo{
+        padding: 30px 0 30px 0;
+    }
+    .bread_menu {
+        padding: 30px 10px 30px 0;
+    }
+    
+    .menu1{
+        padding: 30px 0 30px 10px;
+    }
+
+    .heading{
+        max-width: 475px;
+        margin: 80px auto;
+        text-align: left;
+    }
+
+    .heading h1{
+        font-size: 60px;
+        color: #42CB79; 
+        font-family: Playfair Display;
+        font-weight: 700;
+    }
+
+    .heading h4{
+        text-align: left;
+        font-size: 20px;
+        color: #262A37;
+    }
+
+    .thumbnil img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .description{
+
+    }
+
+    .description h1{
+        font-size: 48px;
+    }
+
+    /* FOOTER  */
+    .befor_footer{
+        background-color: #588AEE;
+        margin-top: 60px;
+    }
+    
+    .subs{
+        width: 100%;
+        padding: 150px 0 150px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .s_title h1{
+        color: #FFFFFF;
+        font-size: 42px;
+        line-height: 40px;
+    }
+    
+    .s_title h3{
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    
+    .mail_bar{
+        width: 30%;
+        position: relative;
+    }
+    
+    .mail_bar input{
+        width: 100%;
+        height: 49px;
+        padding: 10px;
+    }
+    input:focus {
+        outline: none;
+    }
+    .mail_bar button{
+        position: absolute;
+        right: 0px;
+        top: 1px;
+        border: none;
+        background-color: initial;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sociall{
+        display: flex;
+    }
+    .cont, .T_C, .pp, .so{
+        padding-left: 40px;
+    }
+    
+    .so i{
+        padding-left: 10px;
+    }
+
+    /* FOOTER  */
